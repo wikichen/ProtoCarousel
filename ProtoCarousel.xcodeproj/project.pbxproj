@@ -14,6 +14,13 @@
 		7C36CF3C1CF8DBCF00C51FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C36CF3A1CF8DBCF00C51FB8 /* LaunchScreen.storyboard */; };
 		7C36CF471CF8DBCF00C51FB8 /* ProtoCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36CF461CF8DBCF00C51FB8 /* ProtoCarouselTests.swift */; };
 		7C36CF521CF8DBCF00C51FB8 /* ProtoCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36CF511CF8DBCF00C51FB8 /* ProtoCarouselUITests.swift */; };
+		7CB8A3591CFA4AE1000B6B8B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A3581CFA4AE1000B6B8B /* Common.swift */; };
+		7CB8A35B1CFA693A000B6B8B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A35A1CFA693A000B6B8B /* IntroViewController.swift */; };
+		7CB8A35D1CFB9B07000B6B8B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A35C1CFB9B07000B6B8B /* LoginViewController.swift */; };
+		7CB8A35F1CFCBA8E000B6B8B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A35E1CFCBA8E000B6B8B /* TutorialViewController.swift */; };
+		7CB8A3611CFCCB54000B6B8B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A3601CFCCB54000B6B8B /* TimelineViewController.swift */; };
+		7CB8A3631CFCCD86000B6B8B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A3621CFCCD86000B6B8B /* SettingsViewController.swift */; };
+		7CB8A3651CFCCD9C000B6B8B /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8A3641CFCCD9C000B6B8B /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		7C36CF4D1CF8DBCF00C51FB8 /* ProtoCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C36CF511CF8DBCF00C51FB8 /* ProtoCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoCarouselUITests.swift; sourceTree = "<group>"; };
 		7C36CF531CF8DBCF00C51FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB8A3581CFA4AE1000B6B8B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7CB8A35A1CFA693A000B6B8B /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		7CB8A35C1CFB9B07000B6B8B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CB8A35E1CFCBA8E000B6B8B /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		7CB8A3601CFCCB54000B6B8B /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		7CB8A3621CFCCD86000B6B8B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7CB8A3641CFCCD9C000B6B8B /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,16 @@
 		7C36CF301CF8DBCF00C51FB8 /* ProtoCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				7CB8A3581CFA4AE1000B6B8B /* Common.swift */,
 				7C36CF311CF8DBCF00C51FB8 /* AppDelegate.swift */,
 				7C36CF331CF8DBCF00C51FB8 /* ViewController.swift */,
 				7C36CF351CF8DBCF00C51FB8 /* Main.storyboard */,
+				7CB8A3641CFCCD9C000B6B8B /* ConversationsViewController.swift */,
+				7CB8A3621CFCCD86000B6B8B /* SettingsViewController.swift */,
+				7CB8A3601CFCCB54000B6B8B /* TimelineViewController.swift */,
+				7CB8A35E1CFCBA8E000B6B8B /* TutorialViewController.swift */,
+				7CB8A35C1CFB9B07000B6B8B /* LoginViewController.swift */,
+				7CB8A35A1CFA693A000B6B8B /* IntroViewController.swift */,
 				7C36CF381CF8DBCF00C51FB8 /* Assets.xcassets */,
 				7C36CF3A1CF8DBCF00C51FB8 /* LaunchScreen.storyboard */,
 				7C36CF3D1CF8DBCF00C51FB8 /* Info.plist */,
@@ -257,7 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C36CF341CF8DBCF00C51FB8 /* ViewController.swift in Sources */,
+				7CB8A3591CFA4AE1000B6B8B /* Common.swift in Sources */,
 				7C36CF321CF8DBCF00C51FB8 /* AppDelegate.swift in Sources */,
+				7CB8A35D1CFB9B07000B6B8B /* LoginViewController.swift in Sources */,
+				7CB8A3611CFCCB54000B6B8B /* TimelineViewController.swift in Sources */,
+				7CB8A35F1CFCBA8E000B6B8B /* TutorialViewController.swift in Sources */,
+				7CB8A3651CFCCD9C000B6B8B /* ConversationsViewController.swift in Sources */,
+				7CB8A35B1CFA693A000B6B8B /* IntroViewController.swift in Sources */,
+				7CB8A3631CFCCD86000B6B8B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +510,7 @@
 				7C36CF581CF8DBCF00C51FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C36CF591CF8DBCF00C51FB8 /* Build configuration list for PBXNativeTarget "ProtoCarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				7C36CF5B1CF8DBCF00C51FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C36CF5C1CF8DBCF00C51FB8 /* Build configuration list for PBXNativeTarget "ProtoCarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				7C36CF5E1CF8DBCF00C51FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
