@@ -26,9 +26,9 @@ Time spent: `7 hours`
   - [x] User can log out.
 
 
-  #### Optional
+#### Optional
 
-  - [ ] Photo tiles move with scrolling.
+  - [x] Photo tiles move with scrolling.
   - [ ] Sign In
     - [ ] When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard
     - [ ] On appear, scale the form up and fade it in.
@@ -65,7 +65,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I found manipulating layers in Storyboard frustrating given hovering an element over a group (such as a Scroll View) automatically embeds the layer inside the parent. Using the CMD key to "unbind" the elements when dragging helped a lot. 
+I found manipulating layers in Storyboard frustrating given hovering an element over a group (such as a Scroll View) automatically embeds the layer inside the parent. Using the CMD key to "unbind" the elements when dragging helped a lot.
 
 ## License
 
